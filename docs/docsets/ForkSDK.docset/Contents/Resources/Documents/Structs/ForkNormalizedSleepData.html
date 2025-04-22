@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ForkNormalizedSleepData Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/ForkNormalizedSleepData" class="dashAnchor"></a>
+    <a title="ForkNormalizedSleepData Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ForkSDK 0.0.1 Docs</a> (5% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ForkSDK</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Structs.html">Structures</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        ForkNormalizedSleepData Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ForkConnection.html">ForkConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForkConsoleLogger.html">ForkConsoleLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForkGenericTransformer.html">ForkGenericTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForkSDK.html">ForkSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForkTypeTransofmer.html">ForkTypeTransofmer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ForkDataActivityTypes.html">ForkDataActivityTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkDataTypes.html">ForkDataTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkError.html">ForkError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkLoggerLevel.html">ForkLoggerLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkMetadata.html">ForkMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkRegion.html">ForkRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkStoreDataTypes.html">ForkStoreDataTypes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkBackgroundDeliveriesLogger.html">ForkBackgroundDeliveriesLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7ForkSDK0A12DataProtocolP">ForkDataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkDataType.html">ForkDataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkGenericTransformerProtocol.html">ForkGenericTransformerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7ForkSDK0A10HealthDataP">ForkHealthData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkLogging.html">ForkLogging</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkNormalizedData.html">ForkNormalizedData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkPayload.html">ForkPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7ForkSDK0A19TransformerProtocolP">ForkTransformerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkTypeTransformerProtocol.html">ForkTypeTransformerProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ForkData.html">ForkData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkDataItem.html">ForkDataItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkDataQuantity.html">ForkDataQuantity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkDataQuantityValue.html">ForkDataQuantityValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkDataSource.html">ForkDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A25HealthDataActivitySummaryV">ForkHealthDataActivitySummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A25HealthDataCategorySamplesV">ForkHealthDataCategorySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A24HealthDataCharacteristicV">ForkHealthDataCharacteristic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A33HealthDataDiscreteQuantitySamplesV">ForkHealthDataDiscreteQuantitySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A19HealthDataLLocationV">ForkHealthDataLLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A25HealthDataQuantitySamplesV">ForkHealthDataQuantitySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A17HealthDataSamplesV">ForkHealthDataSamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A20HealthDataStatisticsV">ForkHealthDataStatistics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A18HealthDataWorkoutsV">ForkHealthDataWorkouts</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedActivitiesSummaryData.html">ForkNormalizedActivitiesSummaryData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedBodyData/BodyData.html">– BodyData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedBodyData/TemperatureData.html">– TemperatureData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedBodyData/BloodPressureDataObject.html">– BloodPressureDataObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedCaloriesData.html">ForkNormalizedCaloriesData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedCaloriesData/IntradayData.html">– IntradayData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedECGData.html">ForkNormalizedECGData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedGlucoseData.html">ForkNormalizedGlucoseData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedGlucoseData/IntradayData.html">– IntradayData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedRouteData.html">ForkNormalizedRouteData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedRouteData/Coordinate.html">– Coordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedSamplesData.html">ForkNormalizedSamplesData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedSamplesData/Sample.html">– Sample</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedSleepData.html">ForkNormalizedSleepData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedSleepData/Levels.html">– Levels</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData.html">ForkNormalizedWorkoutData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData/HRZone.html">– HRZone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData/Sample.html">– Sample</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData/Lap.html">– Lap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData/Event.html">– Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkPreferredUnit.html">ForkPreferredUnit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A23NormalizedBreathingDataa">ForkNormalizedBreathingData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A22NormalizedDistanceDataa">ForkNormalizedDistanceData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A28NormalizedFlightsClimbedDataa">ForkNormalizedFlightsClimbedData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A19NormalizedHeartDataa">ForkNormalizedHeartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A30NormalizedOxygenSaturationDataa">ForkNormalizedOxygenSaturationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A19NormalizedStepsDataa">ForkNormalizedStepsData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A20NormalizedVO2MaxDataa">ForkNormalizedVO2MaxData</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ForkNormalizedSleepData</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ForkNormalizedSleepData</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/ForkNormalizedData.html">ForkNormalizedData</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV12bedtimeStartSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bedtimeStart" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV12bedtimeStartSSSgvp">bedtimeStart</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bedtimeStart</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV10bedtimeEndSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bedtimeEnd" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV10bedtimeEndSSSgvp">bedtimeEnd</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bedtimeEnd</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV14timezoneOffsetSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/timezoneOffset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV14timezoneOffsetSdSgvp">timezoneOffset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">timezoneOffset</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV15bedtimeDurationSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bedtimeDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV15bedtimeDurationSdSgvp">bedtimeDuration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bedtimeDuration</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV05totalD0SdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/totalSleep" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV05totalD0SdSgvp">totalSleep</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">totalSleep</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV5inBedSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/inBed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV5inBedSdSgvp">inBed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">inBed</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV5awakeSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/awake" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV5awakeSdSgvp">awake</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">awake</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV5lightSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/light" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV5lightSdSgvp">light</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">light</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV3remSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/rem" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV3remSdSgvp">rem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">rem</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV4deepSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/deep" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV4deepSdSgvp">deep</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">deep</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV8hrLowestSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/hrLowest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV8hrLowestSdSgvp">hrLowest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">hrLowest</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV9hrAverageSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/hrAverage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV9hrAverageSdSgvp">hrAverage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">hrAverage</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV10efficiencySdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/efficiency" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV10efficiencySdSgvp">efficiency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">efficiency</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV10awakeningsSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/awakenings" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV10awakeningsSiSgvp">awakenings</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">awakenings</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV7latencySdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/latency" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV7latencySdSgvp">latency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">latency</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV16temperatureDeltaSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/temperatureDelta" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV16temperatureDeltaSdSgvp">temperatureDelta</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">temperatureDelta</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV10averageHrvSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/averageHrv" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV10averageHrvSdSgvp">averageHrv</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">averageHrv</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV15respiratoryRateSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/respiratoryRate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV15respiratoryRateSdSgvp">respiratoryRate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">respiratoryRate</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV012standardizedD5ScoreSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/standardizedSleepScore" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV012standardizedD5ScoreSdSgvp">standardizedSleepScore</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">standardizedSleepScore</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV014sourceSpecificD5ScoreSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/sourceSpecificSleepScore" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV014sourceSpecificD5ScoreSdSgvp">sourceSpecificSleepScore</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">sourceSpecificSleepScore</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV6levelsSayAC6LevelsVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/levels" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV6levelsSayAC6LevelsVGSgvp">levels</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">levels</span><span class="p">:</span> <span class="p">[</span><span class="kt">ForkNormalizedSleepData</span><span class="o">.</span><span class="kt"><a href="../Structs/ForkNormalizedSleepData/Levels.html">Levels</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV4dateSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/date" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV4dateSSSgvp">date</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV6sourceSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/source" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV6sourceSSSgvp">source</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">source</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV8dataTypeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/dataType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV8dataTypeSSSgvp">dataType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">dataType</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV6LevelsV"></a>
+                    <a name="//apple_ref/swift/Struct/Levels" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV6LevelsV">Levels</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/ForkNormalizedSleepData/Levels.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Levels</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A19NormalizedSleepDataV12bedtimeStart0F3End14timezoneOffset0F8Duration05totalD05inBed5awake5light3rem4deep8hrLowest0S7Average10efficiency10awakenings7latency16temperatureDelta10averageHrv15respiratoryRate012standardizedD5Score014sourceSpecificD5Score6levels4date6source8dataTypeACSSSg_A0_SdSgA1_A1_A1_A1_A1_A1_A1_A1_A1_A1_SiSgA1_A1_A1_A1_A1_A1_SayAC6LevelsVGSgA0_A0_A0_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(bedtimeStart:bedtimeEnd:timezoneOffset:bedtimeDuration:totalSleep:inBed:awake:light:rem:deep:hrLowest:hrAverage:efficiency:awakenings:latency:temperatureDelta:averageHrv:respiratoryRate:standardizedSleepScore:sourceSpecificSleepScore:levels:date:source:dataType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A19NormalizedSleepDataV12bedtimeStart0F3End14timezoneOffset0F8Duration05totalD05inBed5awake5light3rem4deep8hrLowest0S7Average10efficiency10awakenings7latency16temperatureDelta10averageHrv15respiratoryRate012standardizedD5Score014sourceSpecificD5Score6levels4date6source8dataTypeACSSSg_A0_SdSgA1_A1_A1_A1_A1_A1_A1_A1_A1_A1_SiSgA1_A1_A1_A1_A1_A1_SayAC6LevelsVGSgA0_A0_A0_tcfc">init(bedtimeStart:<wbr>bedtimeEnd:<wbr>timezoneOffset:<wbr>bedtimeDuration:<wbr>totalSleep:<wbr>inBed:<wbr>awake:<wbr>light:<wbr>rem:<wbr>deep:<wbr>hrLowest:<wbr>hrAverage:<wbr>efficiency:<wbr>awakenings:<wbr>latency:<wbr>temperatureDelta:<wbr>averageHrv:<wbr>respiratoryRate:<wbr>standardizedSleepScore:<wbr>sourceSpecificSleepScore:<wbr>levels:<wbr>date:<wbr>source:<wbr>dataType:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span>
+    <span class="nv">bedtimeStart</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+    <span class="nv">bedtimeEnd</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+    <span class="nv">timezoneOffset</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">bedtimeDuration</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">totalSleep</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">inBed</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">awake</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">light</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">rem</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">deep</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">hrLowest</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">hrAverage</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">efficiency</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">awakenings</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?,</span>
+    <span class="nv">latency</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">temperatureDelta</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">averageHrv</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">respiratoryRate</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">standardizedSleepScore</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">sourceSpecificSleepScore</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?,</span>
+    <span class="nv">levels</span><span class="p">:</span> <span class="p">[</span><span class="kt">ForkNormalizedSleepData</span><span class="o">.</span><span class="kt"><a href="../Structs/ForkNormalizedSleepData/Levels.html">Levels</a></span><span class="p">]?,</span>
+    <span class="nv">date</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+    <span class="nv">source</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+    <span class="nv">dataType</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="https://www.forkapi.com" target="_blank" rel="external noopener">ForkAPI</a>. All rights reserved. (Last updated: 2024-10-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

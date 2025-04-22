@@ -1,0 +1,2973 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/ForkConnection.swift",
+      "line": 12,
+      "symbol": "ForkRegion",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/ForkConnection.swift",
+      "line": 13,
+      "symbol": "ForkRegion.US",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/ForkConnection.swift",
+      "line": 14,
+      "symbol": "ForkRegion.EU",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/ForkConnection.swift",
+      "line": 19,
+      "symbol": "ForkConnection",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/ForkConnection.swift",
+      "line": 913,
+      "symbol": "ForkConnection.extractAndPostData(_:from:to:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/ForkConnection.swift",
+      "line": 1006,
+      "symbol": "ForkConnection.setBackgroundDeliveryLogger(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/ForkConnection.swift",
+      "line": 1011,
+      "symbol": "ForkConnection.getBackgroundDeliveryDataTypes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/ForkSDK.swift",
+      "line": 12,
+      "symbol": "ForkSDK.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkBackgroundDeliveriesLogger.swift",
+      "line": 11,
+      "symbol": "ForkBackgroundDeliveriesLogger",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkBackgroundDeliveriesLogger.swift",
+      "line": 12,
+      "symbol": "ForkBackgroundDeliveriesLogger.onBackgroundLog(log:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkConsoleLogger.swift",
+      "line": 10,
+      "symbol": "ForkConsoleLogger",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkConsoleLogger.swift",
+      "line": 12,
+      "symbol": "ForkConsoleLogger.levels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkConsoleLogger.swift",
+      "line": 14,
+      "symbol": "ForkConsoleLogger.init(levels:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkConsoleLogger.swift",
+      "line": 18,
+      "symbol": "ForkConsoleLogger.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkConsoleLogger.swift",
+      "line": 22,
+      "symbol": "ForkConsoleLogger.log(_:onLevel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLoggerLevel.swift",
+      "line": 10,
+      "symbol": "ForkLoggerLevel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLoggerLevel.swift",
+      "line": 11,
+      "symbol": "ForkLoggerLevel.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLoggerLevel.swift",
+      "line": 12,
+      "symbol": "ForkLoggerLevel.warn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLoggerLevel.swift",
+      "line": 13,
+      "symbol": "ForkLoggerLevel.info",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLoggerLevel.swift",
+      "line": 14,
+      "symbol": "ForkLoggerLevel.debug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLoggerLevel.swift",
+      "line": 15,
+      "symbol": "ForkLoggerLevel.verbose",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLogging.swift",
+      "line": 10,
+      "symbol": "ForkLogging",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLogging.swift",
+      "line": 11,
+      "symbol": "ForkLogging.levels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLogging.swift",
+      "line": 13,
+      "symbol": "ForkLogging.configure()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLogging.swift",
+      "line": 15,
+      "symbol": "ForkLogging.log(_:onLevel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLogging.swift",
+      "line": 18,
+      "symbol": "ForkLogging",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLogging.swift",
+      "line": 20,
+      "symbol": "ForkLogging.configure()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Logger/ForkLogging.swift",
+      "line": 22,
+      "symbol": "ForkLogging.messageHeader(forLevel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 10,
+      "symbol": "ForkDataQuantityValue",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 11,
+      "symbol": "ForkDataQuantityValue.quantity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 12,
+      "symbol": "ForkDataQuantityValue.unit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 14,
+      "symbol": "ForkDataQuantityValue.init(quantity:unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 20,
+      "symbol": "ForkDataQuantity",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 21,
+      "symbol": "ForkDataQuantity.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 22,
+      "symbol": "ForkDataQuantity.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 23,
+      "symbol": "ForkDataQuantity.endDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 24,
+      "symbol": "ForkDataQuantity.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 25,
+      "symbol": "ForkDataQuantity.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 27,
+      "symbol": "ForkDataQuantity.init(startDate:endDate:value:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 34,
+      "symbol": "ForkDataQuantity.quantity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 38,
+      "symbol": "ForkDataQuantity.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 48,
+      "symbol": "ForkDataSource",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 49,
+      "symbol": "ForkDataSource.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 50,
+      "symbol": "ForkDataSource.bundleIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 53,
+      "symbol": "ForkDataItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 54,
+      "symbol": "ForkDataItem.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 55,
+      "symbol": "ForkDataItem.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 56,
+      "symbol": "ForkDataItem.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 57,
+      "symbol": "ForkDataItem.endDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 58,
+      "symbol": "ForkDataItem.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 59,
+      "symbol": "ForkDataItem.metaData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 60,
+      "symbol": "ForkDataItem.nestedData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 61,
+      "symbol": "ForkDataItem.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 62,
+      "symbol": "ForkDataItem.device",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 64,
+      "symbol": "ForkDataItem.init(id:name:startDate:endDate:data:metaData:nestedData:source:device:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 87,
+      "symbol": "ForkDataItem.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 96,
+      "symbol": "ForkDataType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 97,
+      "symbol": "ForkDataType.DataEntryType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 100,
+      "symbol": "ForkData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 101,
+      "symbol": "ForkData.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 102,
+      "symbol": "ForkData.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 103,
+      "symbol": "ForkData.endDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 104,
+      "symbol": "ForkData.collectedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 105,
+      "symbol": "ForkData.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 106,
+      "symbol": "ForkData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 107,
+      "symbol": "ForkData.device",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 110,
+      "symbol": "ForkData.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkData.swift",
+      "line": 111,
+      "symbol": "ForkData.metaData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataProtocol.swift",
+      "line": 10,
+      "symbol": "ForkDataProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 10,
+      "symbol": "ForkStoreDataTypes",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 11,
+      "symbol": "ForkStoreDataTypes.bodyMass",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 12,
+      "symbol": "ForkStoreDataTypes.bodyMassIndex",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 13,
+      "symbol": "ForkStoreDataTypes.bodyTemperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 14,
+      "symbol": "ForkStoreDataTypes.distanceWalkingRunning",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 15,
+      "symbol": "ForkStoreDataTypes.distanceCycling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 16,
+      "symbol": "ForkStoreDataTypes.calories",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 17,
+      "symbol": "ForkStoreDataTypes.flightsClimbed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 20,
+      "symbol": "ForkDataTypes",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 21,
+      "symbol": "ForkDataTypes.characteristic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 22,
+      "symbol": "ForkDataTypes.activitiesStream",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 23,
+      "symbol": "ForkDataTypes.workoutRoute",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 24,
+      "symbol": "ForkDataTypes.workoutSplits",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 25,
+      "symbol": "ForkDataTypes.activitiesSummary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 26,
+      "symbol": "ForkDataTypes.breathing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 27,
+      "symbol": "ForkDataTypes.calories",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 28,
+      "symbol": "ForkDataTypes.distance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 29,
+      "symbol": "ForkDataTypes.glucose",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 30,
+      "symbol": "ForkDataTypes.heart",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 31,
+      "symbol": "ForkDataTypes.oxygenSaturation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 32,
+      "symbol": "ForkDataTypes.vo2Max",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 33,
+      "symbol": "ForkDataTypes.sleep",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 34,
+      "symbol": "ForkDataTypes.steps",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 35,
+      "symbol": "ForkDataTypes.flightsClimbed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 36,
+      "symbol": "ForkDataTypes.swimming",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 37,
+      "symbol": "ForkDataTypes.body",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 38,
+      "symbol": "ForkDataTypes.cycling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 39,
+      "symbol": "ForkDataTypes.running",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 40,
+      "symbol": "ForkDataTypes.walking",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 41,
+      "symbol": "ForkDataTypes.rowing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 42,
+      "symbol": "ForkDataTypes.paddle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 46,
+      "symbol": "ForkDataActivityTypes",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 47,
+      "symbol": "ForkDataActivityTypes.cycling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 48,
+      "symbol": "ForkDataActivityTypes.walking",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 49,
+      "symbol": "ForkDataActivityTypes.paddle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 50,
+      "symbol": "ForkDataActivityTypes.running",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkDataTypes.swift",
+      "line": 51,
+      "symbol": "ForkDataActivityTypes.swimming",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 11,
+      "symbol": "ForkError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 12,
+      "symbol": "ForkError.generalError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 13,
+      "symbol": "ForkError.notConfigured",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 14,
+      "symbol": "ForkError.invalidURL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 15,
+      "symbol": "ForkError.noData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 16,
+      "symbol": "ForkError.decodingError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 17,
+      "symbol": "ForkError.encodingError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 18,
+      "symbol": "ForkError.badRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 19,
+      "symbol": "ForkError.unauthorized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 20,
+      "symbol": "ForkError.notFound",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 21,
+      "symbol": "ForkError.healthDataNotAvailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 22,
+      "symbol": "ForkError.healthDataError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 23,
+      "symbol": "ForkError.connectionIsClosed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 24,
+      "symbol": "ForkError.callbackUrlNotProvided",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 25,
+      "symbol": "ForkError.notImplemented",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 26,
+      "symbol": "ForkError.invalidValue(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 27,
+      "symbol": "ForkError.badEncoding(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 28,
+      "symbol": "ForkError.notAvailable(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 30,
+      "symbol": "ForkError.invalidType(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 31,
+      "symbol": "ForkError.invalidIdentifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkError.swift",
+      "line": 33,
+      "symbol": "ForkError.parsingFailed(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 12,
+      "symbol": "ForkHealthData",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 17,
+      "symbol": "ForkHealthDataActivitySummary",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 26,
+      "symbol": "ForkHealthDataCharacteristic",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 31,
+      "symbol": "ForkHealthDataWorkouts",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 35,
+      "symbol": "ForkHealthDataCategorySamples",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 39,
+      "symbol": "ForkHealthDataSamples",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 43,
+      "symbol": "ForkHealthDataQuantitySamples",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 47,
+      "symbol": "ForkHealthDataDiscreteQuantitySamples",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 51,
+      "symbol": "ForkHealthDataStatistics",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkHealthData.swift",
+      "line": 55,
+      "symbol": "ForkHealthDataLLocation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkMetadata.swift",
+      "line": 13,
+      "symbol": "ForkMetadata",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkMetadata.swift",
+      "line": 14,
+      "symbol": "ForkMetadata.string(dictionary:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkMetadata.swift",
+      "line": 15,
+      "symbol": "ForkMetadata.date(dictionary:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkMetadata.swift",
+      "line": 16,
+      "symbol": "ForkMetadata.double(dictionary:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkMetadata.swift",
+      "line": 18,
+      "symbol": "ForkMetadata.original",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkMetadata.swift",
+      "line": 30,
+      "symbol": "ForkMetadata",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkMetadata.swift",
+      "line": 47,
+      "symbol": "ForkMetadata",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkMetadata.swift",
+      "line": 48,
+      "symbol": "ForkMetadata.make(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 10,
+      "symbol": "ForkNormalizedData",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 11,
+      "symbol": "ForkNormalizedData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 12,
+      "symbol": "ForkNormalizedData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 13,
+      "symbol": "ForkNormalizedData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 16,
+      "symbol": "ForkNormalizedECGData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 17,
+      "symbol": "ForkNormalizedECGData.frequency",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 18,
+      "symbol": "ForkNormalizedECGData.avgHR",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 19,
+      "symbol": "ForkNormalizedECGData.classification",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 20,
+      "symbol": "ForkNormalizedECGData.lead",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 21,
+      "symbol": "ForkNormalizedECGData.timeStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 22,
+      "symbol": "ForkNormalizedECGData.timeEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 23,
+      "symbol": "ForkNormalizedECGData.timezoneOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 24,
+      "symbol": "ForkNormalizedECGData.unit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 25,
+      "symbol": "ForkNormalizedECGData.samples",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 27,
+      "symbol": "ForkNormalizedECGData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 28,
+      "symbol": "ForkNormalizedECGData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 29,
+      "symbol": "ForkNormalizedECGData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 65,
+      "symbol": "ForkNormalizedSamplesData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 66,
+      "symbol": "ForkNormalizedSamplesData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 67,
+      "symbol": "ForkNormalizedSamplesData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 68,
+      "symbol": "ForkNormalizedSamplesData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 70,
+      "symbol": "ForkNormalizedSamplesData.total",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 71,
+      "symbol": "ForkNormalizedSamplesData.avg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 72,
+      "symbol": "ForkNormalizedSamplesData.min",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 73,
+      "symbol": "ForkNormalizedSamplesData.max",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 75,
+      "symbol": "ForkNormalizedSamplesData.unit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 77,
+      "symbol": "ForkNormalizedSamplesData.samples",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 79,
+      "symbol": "ForkNormalizedSamplesData.init(date:source:dataType:total:avg:min:max:unit:samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 94,
+      "symbol": "ForkNormalizedSamplesData.init(date:source:dataType:total:samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 109,
+      "symbol": "ForkNormalizedSamplesData.init(date:source:dataType:samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 133,
+      "symbol": "ForkNormalizedSamplesData.Sample.timeStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 134,
+      "symbol": "ForkNormalizedSamplesData.Sample.timeEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 135,
+      "symbol": "ForkNormalizedSamplesData.Sample.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 136,
+      "symbol": "ForkNormalizedSamplesData.Sample.value2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 138,
+      "symbol": "ForkNormalizedSamplesData.Sample.init(timeStart:timeEnd:value:value2:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 145,
+      "symbol": "ForkNormalizedSamplesData.Sample.init(timeStart:timeEnd:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 154,
+      "symbol": "ForkNormalizedDistanceData",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 155,
+      "symbol": "ForkNormalizedStepsData",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 156,
+      "symbol": "ForkNormalizedFlightsClimbedData",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 157,
+      "symbol": "ForkNormalizedHeartData",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 158,
+      "symbol": "ForkNormalizedVO2MaxData",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 160,
+      "symbol": "ForkNormalizedOxygenSaturationData",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 161,
+      "symbol": "ForkNormalizedBreathingData",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 163,
+      "symbol": "ForkNormalizedCaloriesData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 165,
+      "symbol": "ForkNormalizedCaloriesData.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 166,
+      "symbol": "ForkNormalizedCaloriesData.intradayData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 168,
+      "symbol": "ForkNormalizedCaloriesData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 169,
+      "symbol": "ForkNormalizedCaloriesData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 170,
+      "symbol": "ForkNormalizedCaloriesData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 172,
+      "symbol": "ForkNormalizedCaloriesData.IntradayData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 173,
+      "symbol": "ForkNormalizedCaloriesData.IntradayData.level",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 174,
+      "symbol": "ForkNormalizedCaloriesData.IntradayData.mets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 175,
+      "symbol": "ForkNormalizedCaloriesData.IntradayData.time",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 176,
+      "symbol": "ForkNormalizedCaloriesData.IntradayData.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 180,
+      "symbol": "ForkNormalizedWorkoutData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 189,
+      "symbol": "ForkNormalizedWorkoutData.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 190,
+      "symbol": "ForkNormalizedWorkoutData.workoutName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 192,
+      "symbol": "ForkNormalizedWorkoutData.workoutTypeId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 194,
+      "symbol": "ForkNormalizedWorkoutData.timeStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 195,
+      "symbol": "ForkNormalizedWorkoutData.timeEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 196,
+      "symbol": "ForkNormalizedWorkoutData.timezoneOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 197,
+      "symbol": "ForkNormalizedWorkoutData.timezone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 198,
+      "symbol": "ForkNormalizedWorkoutData.avgHr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 199,
+      "symbol": "ForkNormalizedWorkoutData.maxHr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 200,
+      "symbol": "ForkNormalizedWorkoutData.minHr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 201,
+      "symbol": "ForkNormalizedWorkoutData.avgHrVariability",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 202,
+      "symbol": "ForkNormalizedWorkoutData.totalEnergyBurned",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 203,
+      "symbol": "ForkNormalizedWorkoutData.activeEnergyBurned",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 204,
+      "symbol": "ForkNormalizedWorkoutData.hrZones",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 205,
+      "symbol": "ForkNormalizedWorkoutData.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 206,
+      "symbol": "ForkNormalizedWorkoutData.elevationAscended",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 207,
+      "symbol": "ForkNormalizedWorkoutData.elevationDescended",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 208,
+      "symbol": "ForkNormalizedWorkoutData.distance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 209,
+      "symbol": "ForkNormalizedWorkoutData.steps",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 210,
+      "symbol": "ForkNormalizedWorkoutData.avgSpeed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 211,
+      "symbol": "ForkNormalizedWorkoutData.maxSpeed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 212,
+      "symbol": "ForkNormalizedWorkoutData.averageWatts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 213,
+      "symbol": "ForkNormalizedWorkoutData.deviceWatts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 214,
+      "symbol": "ForkNormalizedWorkoutData.maxWatts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 215,
+      "symbol": "ForkNormalizedWorkoutData.weightedAverageWatts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 216,
+      "symbol": "ForkNormalizedWorkoutData.maxPaceInMinutesPerKilometer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 217,
+      "symbol": "ForkNormalizedWorkoutData.weatherHumidity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 218,
+      "symbol": "ForkNormalizedWorkoutData.weatherTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 219,
+      "symbol": "ForkNormalizedWorkoutData.weatherCondition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 220,
+      "symbol": "ForkNormalizedWorkoutData.avgMETs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 221,
+      "symbol": "ForkNormalizedWorkoutData.map",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 222,
+      "symbol": "ForkNormalizedWorkoutData.samples",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 223,
+      "symbol": "ForkNormalizedWorkoutData.laps",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 224,
+      "symbol": "ForkNormalizedWorkoutData.events",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 225,
+      "symbol": "ForkNormalizedWorkoutData.manual",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 226,
+      "symbol": "ForkNormalizedWorkoutData.activities",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 228,
+      "symbol": "ForkNormalizedWorkoutData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 229,
+      "symbol": "ForkNormalizedWorkoutData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 230,
+      "symbol": "ForkNormalizedWorkoutData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 232,
+      "symbol": "ForkNormalizedWorkoutData.HRZone",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 233,
+      "symbol": "ForkNormalizedWorkoutData.HRZone.max",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 234,
+      "symbol": "ForkNormalizedWorkoutData.HRZone.min",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 235,
+      "symbol": "ForkNormalizedWorkoutData.HRZone.minutes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 236,
+      "symbol": "ForkNormalizedWorkoutData.HRZone.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 239,
+      "symbol": "ForkNormalizedWorkoutData.Sample",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 240,
+      "symbol": "ForkNormalizedWorkoutData.Sample.timeStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 241,
+      "symbol": "ForkNormalizedWorkoutData.Sample.timeEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 242,
+      "symbol": "ForkNormalizedWorkoutData.Sample.timerDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 243,
+      "symbol": "ForkNormalizedWorkoutData.Sample.movingTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 244,
+      "symbol": "ForkNormalizedWorkoutData.Sample.latitudeInDegree",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 245,
+      "symbol": "ForkNormalizedWorkoutData.Sample.longitudeInDegree",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 246,
+      "symbol": "ForkNormalizedWorkoutData.Sample.elevation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 247,
+      "symbol": "ForkNormalizedWorkoutData.Sample.airTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 248,
+      "symbol": "ForkNormalizedWorkoutData.Sample.heartrate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 249,
+      "symbol": "ForkNormalizedWorkoutData.Sample.speed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 250,
+      "symbol": "ForkNormalizedWorkoutData.Sample.stepsPerMinute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 251,
+      "symbol": "ForkNormalizedWorkoutData.Sample.distance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 252,
+      "symbol": "ForkNormalizedWorkoutData.Sample.powerInWatts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 253,
+      "symbol": "ForkNormalizedWorkoutData.Sample.bikeCadenceRpm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 254,
+      "symbol": "ForkNormalizedWorkoutData.Sample.swimCadenceStrokesPerMinute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 257,
+      "symbol": "ForkNormalizedWorkoutData.Lap",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 258,
+      "symbol": "ForkNormalizedWorkoutData.Lap.timeStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 261,
+      "symbol": "ForkNormalizedWorkoutData.Event",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 262,
+      "symbol": "ForkNormalizedWorkoutData.Event.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 263,
+      "symbol": "ForkNormalizedWorkoutData.Event.timeStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 264,
+      "symbol": "ForkNormalizedWorkoutData.Event.timeEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 265,
+      "symbol": "ForkNormalizedWorkoutData.Event.timerDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 269,
+      "symbol": "ForkNormalizedSleepData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 270,
+      "symbol": "ForkNormalizedSleepData.bedtimeStart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 271,
+      "symbol": "ForkNormalizedSleepData.bedtimeEnd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 272,
+      "symbol": "ForkNormalizedSleepData.timezoneOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 273,
+      "symbol": "ForkNormalizedSleepData.bedtimeDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 274,
+      "symbol": "ForkNormalizedSleepData.totalSleep",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 275,
+      "symbol": "ForkNormalizedSleepData.inBed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 276,
+      "symbol": "ForkNormalizedSleepData.awake",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 277,
+      "symbol": "ForkNormalizedSleepData.light",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 278,
+      "symbol": "ForkNormalizedSleepData.rem",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 279,
+      "symbol": "ForkNormalizedSleepData.deep",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 280,
+      "symbol": "ForkNormalizedSleepData.hrLowest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 281,
+      "symbol": "ForkNormalizedSleepData.hrAverage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 282,
+      "symbol": "ForkNormalizedSleepData.efficiency",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 283,
+      "symbol": "ForkNormalizedSleepData.awakenings",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 284,
+      "symbol": "ForkNormalizedSleepData.latency",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 285,
+      "symbol": "ForkNormalizedSleepData.temperatureDelta",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 286,
+      "symbol": "ForkNormalizedSleepData.averageHrv",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 287,
+      "symbol": "ForkNormalizedSleepData.respiratoryRate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 288,
+      "symbol": "ForkNormalizedSleepData.standardizedSleepScore",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 289,
+      "symbol": "ForkNormalizedSleepData.sourceSpecificSleepScore",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 290,
+      "symbol": "ForkNormalizedSleepData.levels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 292,
+      "symbol": "ForkNormalizedSleepData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 293,
+      "symbol": "ForkNormalizedSleepData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 294,
+      "symbol": "ForkNormalizedSleepData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 296,
+      "symbol": "ForkNormalizedSleepData.Levels",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 297,
+      "symbol": "ForkNormalizedSleepData.Levels.dateTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 298,
+      "symbol": "ForkNormalizedSleepData.Levels.level",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 299,
+      "symbol": "ForkNormalizedSleepData.Levels.seconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 301,
+      "symbol": "ForkNormalizedSleepData.Levels.init(dateTime:level:seconds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 308,
+      "symbol": "ForkNormalizedSleepData.init(bedtimeStart:bedtimeEnd:timezoneOffset:bedtimeDuration:totalSleep:inBed:awake:light:rem:deep:hrLowest:hrAverage:efficiency:awakenings:latency:temperatureDelta:averageHrv:respiratoryRate:standardizedSleepScore:sourceSpecificSleepScore:levels:date:source:dataType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 361,
+      "symbol": "ForkNormalizedBodyData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 363,
+      "symbol": "ForkNormalizedBodyData.bodyData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 364,
+      "symbol": "ForkNormalizedBodyData.temperatureData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 365,
+      "symbol": "ForkNormalizedBodyData.bloodPressureData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 367,
+      "symbol": "ForkNormalizedBodyData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 368,
+      "symbol": "ForkNormalizedBodyData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 369,
+      "symbol": "ForkNormalizedBodyData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 371,
+      "symbol": "ForkNormalizedBodyData.BodyData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 372,
+      "symbol": "ForkNormalizedBodyData.BodyData.weightKg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 373,
+      "symbol": "ForkNormalizedBodyData.BodyData.heightCm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 374,
+      "symbol": "ForkNormalizedBodyData.BodyData.bmi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 375,
+      "symbol": "ForkNormalizedBodyData.BodyData.bodyFatPercentage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 376,
+      "symbol": "ForkNormalizedBodyData.BodyData.boneMassG",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 377,
+      "symbol": "ForkNormalizedBodyData.BodyData.muscleMassG",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 378,
+      "symbol": "ForkNormalizedBodyData.BodyData.waterPercentage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 380,
+      "symbol": "ForkNormalizedBodyData.BodyData.DataObject",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 381,
+      "symbol": "ForkNormalizedBodyData.BodyData.DataObject.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 382,
+      "symbol": "ForkNormalizedBodyData.BodyData.DataObject.timeseries",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 383,
+      "symbol": "ForkNormalizedBodyData.BodyData.DataObject.Item",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 384,
+      "symbol": "ForkNormalizedBodyData.BodyData.DataObject.Item.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 385,
+      "symbol": "ForkNormalizedBodyData.BodyData.DataObject.Item.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 390,
+      "symbol": "ForkNormalizedBodyData.TemperatureData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 391,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.skinTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 392,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.coreTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 393,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.baselineSkinTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 394,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.baselineCoreTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 395,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.diffFromBaselineTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 398,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DataObject",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 399,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DataObject.temperatureCelsius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 400,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DataObject.timeseries",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 402,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DataObject.Item",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 403,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DataObject.Item.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 404,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DataObject.Item.temperatureCelsius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 408,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DiffDataObject",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 409,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DiffDataObject.diffTemperatureCelsius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 410,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DiffDataObject.timeseries",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 411,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DiffDataObject.Item",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 412,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DiffDataObject.Item.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 413,
+      "symbol": "ForkNormalizedBodyData.TemperatureData.DiffDataObject.Item.diffTemperatureCelsius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 417,
+      "symbol": "ForkNormalizedBodyData.BloodPressureDataObject",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 418,
+      "symbol": "ForkNormalizedBodyData.BloodPressureDataObject.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 419,
+      "symbol": "ForkNormalizedBodyData.BloodPressureDataObject.systolicBloodPressure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 420,
+      "symbol": "ForkNormalizedBodyData.BloodPressureDataObject.diastolicBloodPressure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 424,
+      "symbol": "ForkNormalizedActivitiesSummaryData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 426,
+      "symbol": "ForkNormalizedActivitiesSummaryData.caloriesBmr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 427,
+      "symbol": "ForkNormalizedActivitiesSummaryData.caloriesTotal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 428,
+      "symbol": "ForkNormalizedActivitiesSummaryData.caloriesActive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 429,
+      "symbol": "ForkNormalizedActivitiesSummaryData.steps",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 430,
+      "symbol": "ForkNormalizedActivitiesSummaryData.dailyMovement",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 431,
+      "symbol": "ForkNormalizedActivitiesSummaryData.distance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 432,
+      "symbol": "ForkNormalizedActivitiesSummaryData.low",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 433,
+      "symbol": "ForkNormalizedActivitiesSummaryData.medium",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 434,
+      "symbol": "ForkNormalizedActivitiesSummaryData.high",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 435,
+      "symbol": "ForkNormalizedActivitiesSummaryData.elevation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 436,
+      "symbol": "ForkNormalizedActivitiesSummaryData.restingHr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 437,
+      "symbol": "ForkNormalizedActivitiesSummaryData.floors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 438,
+      "symbol": "ForkNormalizedActivitiesSummaryData.sedentaryMinutes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 439,
+      "symbol": "ForkNormalizedActivitiesSummaryData.minHr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 440,
+      "symbol": "ForkNormalizedActivitiesSummaryData.avgHr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 441,
+      "symbol": "ForkNormalizedActivitiesSummaryData.maxHr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 442,
+      "symbol": "ForkNormalizedActivitiesSummaryData.avgStressLevel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 443,
+      "symbol": "ForkNormalizedActivitiesSummaryData.maxStressLevel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 444,
+      "symbol": "ForkNormalizedActivitiesSummaryData.stressDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 445,
+      "symbol": "ForkNormalizedActivitiesSummaryData.lowStressDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 446,
+      "symbol": "ForkNormalizedActivitiesSummaryData.mediumStressDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 447,
+      "symbol": "ForkNormalizedActivitiesSummaryData.highStressDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 448,
+      "symbol": "ForkNormalizedActivitiesSummaryData.providerTimestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 450,
+      "symbol": "ForkNormalizedActivitiesSummaryData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 451,
+      "symbol": "ForkNormalizedActivitiesSummaryData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 452,
+      "symbol": "ForkNormalizedActivitiesSummaryData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 455,
+      "symbol": "ForkNormalizedGlucoseData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 457,
+      "symbol": "ForkNormalizedGlucoseData.avgValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 458,
+      "symbol": "ForkNormalizedGlucoseData.minValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 459,
+      "symbol": "ForkNormalizedGlucoseData.maxValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 460,
+      "symbol": "ForkNormalizedGlucoseData.unit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 461,
+      "symbol": "ForkNormalizedGlucoseData.intradayData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 463,
+      "symbol": "ForkNormalizedGlucoseData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 464,
+      "symbol": "ForkNormalizedGlucoseData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 465,
+      "symbol": "ForkNormalizedGlucoseData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 467,
+      "symbol": "ForkNormalizedGlucoseData.IntradayData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 468,
+      "symbol": "ForkNormalizedGlucoseData.IntradayData.time",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 469,
+      "symbol": "ForkNormalizedGlucoseData.IntradayData.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 470,
+      "symbol": "ForkNormalizedGlucoseData.IntradayData.realtimeValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 471,
+      "symbol": "ForkNormalizedGlucoseData.IntradayData.smoothedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 472,
+      "symbol": "ForkNormalizedGlucoseData.IntradayData.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 473,
+      "symbol": "ForkNormalizedGlucoseData.IntradayData.trend",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 474,
+      "symbol": "ForkNormalizedGlucoseData.IntradayData.trendRate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 478,
+      "symbol": "ForkNormalizedRouteData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 479,
+      "symbol": "ForkNormalizedRouteData.coordinates",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 481,
+      "symbol": "ForkNormalizedRouteData.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 482,
+      "symbol": "ForkNormalizedRouteData.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 483,
+      "symbol": "ForkNormalizedRouteData.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 485,
+      "symbol": "ForkNormalizedRouteData.Coordinate",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 486,
+      "symbol": "ForkNormalizedRouteData.Coordinate.time",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 487,
+      "symbol": "ForkNormalizedRouteData.Coordinate.altitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 488,
+      "symbol": "ForkNormalizedRouteData.Coordinate.latitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkNormalizedData.swift",
+      "line": 489,
+      "symbol": "ForkNormalizedRouteData.Coordinate.longitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPayload.swift",
+      "line": 10,
+      "symbol": "ForkPayload",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPayload.swift",
+      "line": 11,
+      "symbol": "ForkPayload.make(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 10,
+      "symbol": "ForkPreferredUnit",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 11,
+      "symbol": "ForkPreferredUnit.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 12,
+      "symbol": "ForkPreferredUnit.unit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 19,
+      "symbol": "ForkPreferredUnit.init(identifier:unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 25,
+      "symbol": "ForkPreferredUnit",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 26,
+      "symbol": "ForkPreferredUnit.collect(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 39,
+      "symbol": "ForkPreferredUnit.collect(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 56,
+      "symbol": "ForkPreferredUnit",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Models/ForkPreferredUnit.swift",
+      "line": 57,
+      "symbol": "ForkPreferredUnit.make(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkGenericTransformer.swift",
+      "line": 11,
+      "symbol": "ForkGenericTransformer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkGenericTransformer.swift",
+      "line": 13,
+      "symbol": "ForkGenericTransformer.transformSamples(samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkGenericTransformer.swift",
+      "line": 17,
+      "symbol": "ForkGenericTransformer.serialezeCategorySamples(from:to:samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkGenericTransformer.swift",
+      "line": 23,
+      "symbol": "ForkGenericTransformer.serializeStatisticsCollection(fromDate:toDate:options:unit:statisticsCollection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkGenericTransformer.swift",
+      "line": 33,
+      "symbol": "ForkGenericTransformer.serializeDiscreteQuantitySamples(fromDate:toDate:options:samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkGenericTransformer.swift",
+      "line": 42,
+      "symbol": "ForkGenericTransformer.transformSamples(samples:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTransformerProtocol.swift",
+      "line": 11,
+      "symbol": "ForkTransformerProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTransformerProtocol.swift",
+      "line": 13,
+      "symbol": "ForkGenericTransformerProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTransformerProtocol.swift",
+      "line": 15,
+      "symbol": "ForkGenericTransformerProtocol.T",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTransformerProtocol.swift",
+      "line": 17,
+      "symbol": "ForkGenericTransformerProtocol.transformSamples(samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTransformerProtocol.swift",
+      "line": 19,
+      "symbol": "ForkGenericTransformerProtocol.serialezeCategorySamples(from:to:samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTransformerProtocol.swift",
+      "line": 21,
+      "symbol": "ForkGenericTransformerProtocol.serializeStatisticsCollection(fromDate:toDate:options:unit:statisticsCollection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTransformerProtocol.swift",
+      "line": 29,
+      "symbol": "ForkGenericTransformerProtocol.serializeDiscreteQuantitySamples(fromDate:toDate:options:samples:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTypeTransofmer.swift",
+      "line": 42,
+      "symbol": "ForkTypeTransformerProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTypeTransofmer.swift",
+      "line": 44,
+      "symbol": "ForkTypeTransformerProtocol.T",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTypeTransofmer.swift",
+      "line": 46,
+      "symbol": "ForkTypeTransformerProtocol.transformData(_:data:from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTypeTransofmer.swift",
+      "line": 49,
+      "symbol": "ForkTypeTransofmer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aleksandras/Documents/code/forkapi/ForkSDK/Sources/ForkSDK/Transformer/ForkTypeTransofmer.swift",
+      "line": 50,
+      "symbol": "ForkTypeTransofmer.transformData(_:data:from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/aleksandras/Documents/code/forkapi/ForkSDK"
+}

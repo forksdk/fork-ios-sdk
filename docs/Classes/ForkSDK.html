@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ForkSDK Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ForkSDK" class="dashAnchor"></a>
+    <a title="ForkSDK Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ForkSDK 0.0.1 Docs</a> (5% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ForkSDK</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Classes.html">Classes</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        ForkSDK Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ForkConnection.html">ForkConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForkConsoleLogger.html">ForkConsoleLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForkGenericTransformer.html">ForkGenericTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForkSDK.html">ForkSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForkTypeTransofmer.html">ForkTypeTransofmer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ForkDataActivityTypes.html">ForkDataActivityTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkDataTypes.html">ForkDataTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkError.html">ForkError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkLoggerLevel.html">ForkLoggerLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkMetadata.html">ForkMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkRegion.html">ForkRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ForkStoreDataTypes.html">ForkStoreDataTypes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkBackgroundDeliveriesLogger.html">ForkBackgroundDeliveriesLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7ForkSDK0A12DataProtocolP">ForkDataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkDataType.html">ForkDataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkGenericTransformerProtocol.html">ForkGenericTransformerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7ForkSDK0A10HealthDataP">ForkHealthData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkLogging.html">ForkLogging</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkNormalizedData.html">ForkNormalizedData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkPayload.html">ForkPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7ForkSDK0A19TransformerProtocolP">ForkTransformerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ForkTypeTransformerProtocol.html">ForkTypeTransformerProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ForkData.html">ForkData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkDataItem.html">ForkDataItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkDataQuantity.html">ForkDataQuantity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkDataQuantityValue.html">ForkDataQuantityValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkDataSource.html">ForkDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A25HealthDataActivitySummaryV">ForkHealthDataActivitySummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A25HealthDataCategorySamplesV">ForkHealthDataCategorySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A24HealthDataCharacteristicV">ForkHealthDataCharacteristic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A33HealthDataDiscreteQuantitySamplesV">ForkHealthDataDiscreteQuantitySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A19HealthDataLLocationV">ForkHealthDataLLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A25HealthDataQuantitySamplesV">ForkHealthDataQuantitySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A17HealthDataSamplesV">ForkHealthDataSamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A20HealthDataStatisticsV">ForkHealthDataStatistics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ForkSDK0A18HealthDataWorkoutsV">ForkHealthDataWorkouts</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedActivitiesSummaryData.html">ForkNormalizedActivitiesSummaryData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedBodyData/BodyData.html">– BodyData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedBodyData/TemperatureData.html">– TemperatureData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedBodyData/BloodPressureDataObject.html">– BloodPressureDataObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedCaloriesData.html">ForkNormalizedCaloriesData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedCaloriesData/IntradayData.html">– IntradayData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedECGData.html">ForkNormalizedECGData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedGlucoseData.html">ForkNormalizedGlucoseData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedGlucoseData/IntradayData.html">– IntradayData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedRouteData.html">ForkNormalizedRouteData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedRouteData/Coordinate.html">– Coordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedSamplesData.html">ForkNormalizedSamplesData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedSamplesData/Sample.html">– Sample</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedSleepData.html">ForkNormalizedSleepData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedSleepData/Levels.html">– Levels</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData.html">ForkNormalizedWorkoutData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData/HRZone.html">– HRZone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData/Sample.html">– Sample</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData/Lap.html">– Lap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkNormalizedWorkoutData/Event.html">– Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForkPreferredUnit.html">ForkPreferredUnit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A23NormalizedBreathingDataa">ForkNormalizedBreathingData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A22NormalizedDistanceDataa">ForkNormalizedDistanceData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A28NormalizedFlightsClimbedDataa">ForkNormalizedFlightsClimbedData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A19NormalizedHeartDataa">ForkNormalizedHeartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A30NormalizedOxygenSaturationDataa">ForkNormalizedOxygenSaturationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A19NormalizedStepsDataa">ForkNormalizedStepsData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ForkSDK0A20NormalizedVO2MaxDataa">ForkNormalizedVO2MaxData</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ForkSDK</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ForkSDK</span></code></pre>
+
+                </div>
+              </div>
+            <p>Fork Swift SDK is a library on top of HealthKit that helps with the data extraction and normalisation.
+It provides a unified single schema across all source datasets</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC6sharedABvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC6sharedABvpZ">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">ForkSDK</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC9configure5appId9authToken6region7loggers11transformerySS_SSAA0A6RegionOSgSayAA0A7Logging_pGSgAA0A19TransformerProtocol_pSgtF"></a>
+                    <a name="//apple_ref/swift/Method/configure(appId:authToken:region:loggers:transformer:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC9configure5appId9authToken6region7loggers11transformerySS_SSAA0A6RegionOSgSayAA0A7Logging_pGSgAA0A19TransformerProtocol_pSgtF">configure(appId:<wbr>authToken:<wbr>region:<wbr>loggers:<wbr>transformer:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Allow SDK to setup background deliveries handlers.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">configure</span><span class="p">(</span>
+    <span class="nv">appId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">authToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">region</span><span class="p">:</span> <span class="kt"><a href="../Enums/ForkRegion.html">ForkRegion</a></span><span class="p">?</span> <span class="o">=</span> <span class="kt"><a href="../Enums/ForkRegion.html">ForkRegion</a></span><span class="o">.</span><span class="kt">EU</span><span class="p">,</span>
+    <span class="nv">loggers</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/ForkLogging.html">ForkLogging</a></span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">transformer</span><span class="p">:</span> <span class="kt"><a href="../Protocols.html#/s:7ForkSDK0A19TransformerProtocolP">ForkTransformerProtocol</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The unique application identifier</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>authToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The authentification token from ForkSDK console.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>region</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>ForkRegion.EU or ForkRegion.US</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>loggers</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional, Provides a way to pass a class which conforms to ForkLogging interface</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>transformer</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional, Provides a way to pass a class which conforms to ForkTransformerProtocol interface</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC8getAppIdSSSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getAppId()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC8getAppIdSSSgyF">getAppId()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves the unique application identifier.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAppId</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC12getAuthTokenSSSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getAuthToken()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC12getAuthTokenSSSgyF">getAuthToken()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves the authentication token</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAuthToken</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC20setCustomerEndUserId08customerefG0ySS_tF"></a>
+                    <a name="//apple_ref/swift/Method/setCustomerEndUserId(customerEndUserId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC20setCustomerEndUserId08customerefG0ySS_tF">setCustomerEndUserId(customerEndUserId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets The unique identifier assigned to the end-user by the customer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setCustomerEndUserId</span><span class="p">(</span><span class="nv">customerEndUserId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC20getCustomerEndUserIdSSSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getCustomerEndUserId()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC20getCustomerEndUserIdSSSgyF">getCustomerEndUserId()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves the unique identifier assigned to the end-user by the customer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getCustomerEndUserId</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC27ensurePermissionsAreGranted3for10completionyShyAA0A9DataTypesOG_ys6ResultOySbAA0A5ErrorOGctF"></a>
+                    <a name="//apple_ref/swift/Method/ensurePermissionsAreGranted(for:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC27ensurePermissionsAreGranted3for10completionyShyAA0A9DataTypesOG_ys6ResultOySbAA0A5ErrorOGctF">ensurePermissionsAreGranted(for:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verifies that platform-specific permissions corresponding to the Fork data types provided are granted. In the event that some permissions are not granted, a platform-specific permissions dialogue will be presented to the end-user
+Provide permissions to access iOS HealthKit data.
+SDK methods will check required permissions and request them if needed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">ensurePermissionsAreGranted</span><span class="p">(</span>
+    <span class="k">for</span> <span class="nv">dateTypes</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt"><a href="../Enums/ForkDataTypes.html">ForkDataTypes</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Result</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt"><a href="../Enums/ForkError.html">ForkError</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dateTypes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Set of required read data types ForkDataTypes</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC32ensureWritePermissionsAreGranted3for10completionyShyAA0A14StoreDataTypesOG_ys6ResultOySbAA0A5ErrorOGctF"></a>
+                    <a name="//apple_ref/swift/Method/ensureWritePermissionsAreGranted(for:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC32ensureWritePermissionsAreGranted3for10completionyShyAA0A14StoreDataTypesOG_ys6ResultOySbAA0A5ErrorOGctF">ensureWritePermissionsAreGranted(for:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verifies that platform-specific permissions corresponding to the Fork data types provided are granted. In the event that some permissions are not granted, a platform-specific permissions dialogue will be presented to the end-user
+Provide permissions to access iOS HealthKit data.
+SDK methods will check required permissions and request them if needed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">ensureWritePermissionsAreGranted</span><span class="p">(</span>
+    <span class="k">for</span> <span class="nv">dateTypes</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt"><a href="../Enums/ForkStoreDataTypes.html">ForkStoreDataTypes</a></span><span class="o">&gt;</span><span class="p">,</span>
+    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Result</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt"><a href="../Enums/ForkError.html">ForkError</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dateTypes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Set of required write data types ForkDataTypes</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC21isHealthDataAvailableSbyFZ"></a>
+                    <a name="//apple_ref/swift/Method/isHealthDataAvailable()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC21isHealthDataAvailableSbyFZ">isHealthDataAvailable()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check if Health Store data available on the device</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">isHealthDataAvailable</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC16createConnection11callbackUrlAA0aD0CSgSSSg_tF"></a>
+                    <a name="//apple_ref/swift/Method/createConnection(callbackUrl:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC16createConnection11callbackUrlAA0aD0CSgSSSg_tF">createConnection(callbackUrl:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new ForkConnection instance with the given user details</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createConnection</span><span class="p">(</span><span class="nv">callbackUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/ForkConnection.html">ForkConnection</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbackUrl</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>URL that will receive webhook notifications</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDKAAC24getBackgroundConnectionsyyKF"></a>
+                    <a name="//apple_ref/swift/Method/getBackgroundConnections()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDKAAC24getBackgroundConnectionsyyKF">getBackgroundConnections()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns all connections that are configured to deliver data in the background</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getBackgroundConnections</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="https://www.forkapi.com" target="_blank" rel="external noopener">ForkAPI</a>. All rights reserved. (Last updated: 2024-10-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

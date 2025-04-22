@@ -1,0 +1,31 @@
+# Ordered by output of `jazzy --help config`
+
+clean: true
+sdk: iphonesimulator
+author: ForkAPI
+author_url: https://www.forkapi.com
+# github_url: https://github.com/forksdk/fork-sdk-ios
+# github_file_prefix: https://github.com/forksdk/fork-sdk-ios/tree/master
+exclude:
+  - "Sources/ForkSDK/Extensions/*"
+  - "*Models/Type/*"
+  - "*Models/Payload/*"
+  - "*Models/GPX/*"
+# include: "Sources/ForkSDK/Models/Fork*"
+include: "*Fork*"
+skip_undocumented: false
+# hide_documentation_coverage: true
+# theme: .jazzy/theme
+# workspace: 
+swift-build-tool: spm
+disable-search: true
+# build-tool-arguments: -target,arm64-apple-ios17.5
+
+
+# jazzy — clean — author “Raphael Haase” — author_url https://sylvilagu s.com -x -workspace,DemoApp.xcworkspace,-scheme,DemoAppScheme — min-acl internal
+
+
+# jazzy \
+#       --module ForkSDK \
+#       --swift-build-tool spm \
+#       --build-tool-arguments -Xswiftc,-swift-version,-Xswiftc,5

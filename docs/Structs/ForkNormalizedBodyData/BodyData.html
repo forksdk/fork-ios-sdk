@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BodyData Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/BodyData" class="dashAnchor"></a>
+    <a title="BodyData Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html">ForkSDK 0.0.1 Docs</a> (5% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html">ForkSDK</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        <a href="../../Structs.html">Structures</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        <a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        BodyData Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/ForkConnection.html">ForkConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ForkConsoleLogger.html">ForkConsoleLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ForkGenericTransformer.html">ForkGenericTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ForkSDK.html">ForkSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ForkTypeTransofmer.html">ForkTypeTransofmer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/ForkDataActivityTypes.html">ForkDataActivityTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ForkDataTypes.html">ForkDataTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ForkError.html">ForkError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ForkLoggerLevel.html">ForkLoggerLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ForkMetadata.html">ForkMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ForkRegion.html">ForkRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ForkStoreDataTypes.html">ForkStoreDataTypes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Protocols/ForkBackgroundDeliveriesLogger.html">ForkBackgroundDeliveriesLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols.html#/s:7ForkSDK0A12DataProtocolP">ForkDataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ForkDataType.html">ForkDataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ForkGenericTransformerProtocol.html">ForkGenericTransformerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols.html#/s:7ForkSDK0A10HealthDataP">ForkHealthData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ForkLogging.html">ForkLogging</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ForkNormalizedData.html">ForkNormalizedData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ForkPayload.html">ForkPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols.html#/s:7ForkSDK0A19TransformerProtocolP">ForkTransformerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ForkTypeTransformerProtocol.html">ForkTypeTransformerProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkData.html">ForkData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkDataItem.html">ForkDataItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkDataQuantity.html">ForkDataQuantity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkDataQuantityValue.html">ForkDataQuantityValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkDataSource.html">ForkDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A25HealthDataActivitySummaryV">ForkHealthDataActivitySummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A25HealthDataCategorySamplesV">ForkHealthDataCategorySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A24HealthDataCharacteristicV">ForkHealthDataCharacteristic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A33HealthDataDiscreteQuantitySamplesV">ForkHealthDataDiscreteQuantitySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A19HealthDataLLocationV">ForkHealthDataLLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A25HealthDataQuantitySamplesV">ForkHealthDataQuantitySamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A17HealthDataSamplesV">ForkHealthDataSamples</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A20HealthDataStatisticsV">ForkHealthDataStatistics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:7ForkSDK0A18HealthDataWorkoutsV">ForkHealthDataWorkouts</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedActivitiesSummaryData.html">ForkNormalizedActivitiesSummaryData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedBodyData/BodyData.html">– BodyData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedBodyData/TemperatureData.html">– TemperatureData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedBodyData/BloodPressureDataObject.html">– BloodPressureDataObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedCaloriesData.html">ForkNormalizedCaloriesData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedCaloriesData/IntradayData.html">– IntradayData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedECGData.html">ForkNormalizedECGData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedGlucoseData.html">ForkNormalizedGlucoseData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedGlucoseData/IntradayData.html">– IntradayData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedRouteData.html">ForkNormalizedRouteData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedRouteData/Coordinate.html">– Coordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedSamplesData.html">ForkNormalizedSamplesData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedSamplesData/Sample.html">– Sample</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedSleepData.html">ForkNormalizedSleepData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedSleepData/Levels.html">– Levels</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedWorkoutData.html">ForkNormalizedWorkoutData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedWorkoutData/HRZone.html">– HRZone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedWorkoutData/Sample.html">– Sample</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedWorkoutData/Lap.html">– Lap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkNormalizedWorkoutData/Event.html">– Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ForkPreferredUnit.html">ForkPreferredUnit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:7ForkSDK0A23NormalizedBreathingDataa">ForkNormalizedBreathingData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:7ForkSDK0A22NormalizedDistanceDataa">ForkNormalizedDistanceData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:7ForkSDK0A28NormalizedFlightsClimbedDataa">ForkNormalizedFlightsClimbedData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:7ForkSDK0A19NormalizedHeartDataa">ForkNormalizedHeartData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:7ForkSDK0A30NormalizedOxygenSaturationDataa">ForkNormalizedOxygenSaturationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:7ForkSDK0A19NormalizedStepsDataa">ForkNormalizedStepsData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:7ForkSDK0A20NormalizedVO2MaxDataa">ForkNormalizedVO2MaxData</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BodyData</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BodyData</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A18NormalizedBodyDataV0dE0V8weightKgAE0E6ObjectVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/weightKg" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A18NormalizedBodyDataV0dE0V8weightKgAE0E6ObjectVSgvp">weightKg</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">weightKg</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a></span><span class="o">.</span><span class="kt">BodyData</span><span class="o">.</span><span class="kt"><a href="../../Structs/ForkNormalizedBodyData/BodyData/DataObject.html">DataObject</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A18NormalizedBodyDataV0dE0V8heightCmAE0E6ObjectVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/heightCm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A18NormalizedBodyDataV0dE0V8heightCmAE0E6ObjectVSgvp">heightCm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">heightCm</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a></span><span class="o">.</span><span class="kt">BodyData</span><span class="o">.</span><span class="kt"><a href="../../Structs/ForkNormalizedBodyData/BodyData/DataObject.html">DataObject</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A18NormalizedBodyDataV0dE0V3bmiAE0E6ObjectVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bmi" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A18NormalizedBodyDataV0dE0V3bmiAE0E6ObjectVSgvp">bmi</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bmi</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a></span><span class="o">.</span><span class="kt">BodyData</span><span class="o">.</span><span class="kt"><a href="../../Structs/ForkNormalizedBodyData/BodyData/DataObject.html">DataObject</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A18NormalizedBodyDataV0dE0V17bodyFatPercentageAE0E6ObjectVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bodyFatPercentage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A18NormalizedBodyDataV0dE0V17bodyFatPercentageAE0E6ObjectVSgvp">bodyFatPercentage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bodyFatPercentage</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a></span><span class="o">.</span><span class="kt">BodyData</span><span class="o">.</span><span class="kt"><a href="../../Structs/ForkNormalizedBodyData/BodyData/DataObject.html">DataObject</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A18NormalizedBodyDataV0dE0V9boneMassGAE0E6ObjectVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/boneMassG" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A18NormalizedBodyDataV0dE0V9boneMassGAE0E6ObjectVSgvp">boneMassG</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">boneMassG</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a></span><span class="o">.</span><span class="kt">BodyData</span><span class="o">.</span><span class="kt"><a href="../../Structs/ForkNormalizedBodyData/BodyData/DataObject.html">DataObject</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A18NormalizedBodyDataV0dE0V11muscleMassGAE0E6ObjectVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/muscleMassG" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A18NormalizedBodyDataV0dE0V11muscleMassGAE0E6ObjectVSgvp">muscleMassG</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">muscleMassG</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a></span><span class="o">.</span><span class="kt">BodyData</span><span class="o">.</span><span class="kt"><a href="../../Structs/ForkNormalizedBodyData/BodyData/DataObject.html">DataObject</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A18NormalizedBodyDataV0dE0V15waterPercentageAE0E6ObjectVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/waterPercentage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A18NormalizedBodyDataV0dE0V15waterPercentageAE0E6ObjectVSgvp">waterPercentage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">waterPercentage</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ForkNormalizedBodyData.html">ForkNormalizedBodyData</a></span><span class="o">.</span><span class="kt">BodyData</span><span class="o">.</span><span class="kt"><a href="../../Structs/ForkNormalizedBodyData/BodyData/DataObject.html">DataObject</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ForkSDK0A18NormalizedBodyDataV0dE0V0E6ObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/DataObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ForkSDK0A18NormalizedBodyDataV0dE0V0E6ObjectV">DataObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../../Structs/ForkNormalizedBodyData/BodyData/DataObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DataObject</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="https://www.forkapi.com" target="_blank" rel="external noopener">ForkAPI</a>. All rights reserved. (Last updated: 2024-10-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
